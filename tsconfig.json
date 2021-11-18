@@ -1,0 +1,23 @@
+{ 
+  "extends": "expo/tsconfig.base",
+  "allowSyntheticDefaultImports": true,
+  "esModuleInterop": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true, 
+    "noResolve": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "types": ["node"],
+    "allowJs": true,
+    "jsx": "react",
+    "strict": true
+  },
+  "exclude": [
+    "./node_modules/**/*"
+  ]
+}
+
