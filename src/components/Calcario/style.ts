@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
     },
     background2: {
         width: "100%",
-        height: "90%",
+        height: "100%",
         alignItems: "center",
 
     },

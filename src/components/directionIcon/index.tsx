@@ -1,10 +1,10 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Image } from 'react-native'
 import ForwardArrow from '../../../assets/forwardArrow';
 import LeftArrow from '../../../assets/leftArrow';
 import RightArrow from '../../../assets/rightArrow';
+import Route from '../../../assets/route';
 import Wink from '../../../assets/wink';
-
 
 
 type props = {
@@ -14,8 +14,7 @@ type props = {
 export default function Direction({currentState}: props) {
     if(currentState === 0) {
         return(
-            <View>
-            </View>
+            <Route />
         )
     } else if (currentState === 1) {
         return (
@@ -42,7 +41,7 @@ export default function Direction({currentState}: props) {
 
 const styles = StyleSheet.create({
     textStyle:{
-        fontSize: 20,
+
         fontWeight: "bold",
     }
 
